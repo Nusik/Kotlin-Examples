@@ -234,6 +234,34 @@ val numbers = (0..100).toList()
     for(a in randomList)
         println(a)
 
-8.5.
+8.5. Zip function
+С помощью данной функции можно объединить два массива в один.
+Например, создадим два массива: один с телефонами пользователей, другой с именами. И объединить их в один массив:
+
+    val names = mutableListOf<String>()
+    val phones = mutableListOf<Long>()
+    for(i in 0..100){
+        names.add("Name $i")
+        phones.add(79_000_000_000 + (Math.random() * 1_000_000_000).toLong())
+    }
+    val users = names.zip(phones)
+    for (user in users){
+        println("Name: ${user.first}, Phone number: ${user.second}")
+    }
+
+8.6.FlatMap
+Разворачивает все коллекции (лист в листе) и получается одна коллекция из вложенных элементов
+ val revenueByWeek = listOf(
+            listOf(1, 2, 5, 7, 6),
+            listOf(10, 20, 15, 7, 16),
+            listOf(13, 12, 50, 17, 60),
+            listOf(11, 25, 15, 70, 16)
+    )
+val total2 = revenueByWeek.flatten()
+    val average2 = total2.average()
+    println(average2)
+
+8.7.Функция Extentions - расширение функции новыми методами
+
 
 

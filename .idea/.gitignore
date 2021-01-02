@@ -12,6 +12,7 @@ hs_err_pid*
 *.iml
 *.iws
 *.xml
+.target/
 
 #Allure
 .allure/
