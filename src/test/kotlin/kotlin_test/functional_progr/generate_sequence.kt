@@ -1,4 +1,4 @@
-package kotl_test.functional_progr
+package kotlin_test.functional_progr
 
 //бесконечные последовательности
 

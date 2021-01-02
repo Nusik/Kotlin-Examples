@@ -1,4 +1,4 @@
-package kotl_test.oop
+package kotlin_test.oop
 
 fun main() {
 printInfo(name ="Ivan")

@@ -1,4 +1,4 @@
-package kotl_test.functional_progr
+package kotlin_test.functional_progr
 
 fun main() {
     val sum: (Int, Int) -> Int = { a, b -> a + b }

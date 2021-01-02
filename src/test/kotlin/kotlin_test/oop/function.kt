@@ -1,4 +1,4 @@
-package kotl_test.oop
+package kotlin_test.oop
 
 import kotlin.math.min
 

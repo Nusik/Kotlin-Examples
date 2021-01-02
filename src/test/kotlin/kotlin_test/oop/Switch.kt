@@ -1,4 +1,4 @@
-package kotl_test
+package kotlin_test
 
 fun main() {
 

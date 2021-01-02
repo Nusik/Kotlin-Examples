@@ -1,4 +1,4 @@
-package kotl_test.oop
+package kotlin_test.oop
 
 fun main() {
     val numbers = arrayOf(5,12,-1,0,6,3,10)
